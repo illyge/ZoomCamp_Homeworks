@@ -1,0 +1,9 @@
+service: "credit_service.py:svc"
+labels:
+  project: "credit-service"
+include:
+  - "*.py"
+python:
+  packages:
+    - xgboost
+    - sklearn
